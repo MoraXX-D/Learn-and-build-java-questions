@@ -1,5 +1,5 @@
 import java.util.*;
-
+///------------------------------->>> Function to get array input <<<-------------------------------------------///
 public class Arraysum {
     public void getArray(int arr[], int n) {
         Scanner sc = new Scanner(System.in);
@@ -8,6 +8,8 @@ public class Arraysum {
         }
         sc.close();
     }
+
+///--------------------------------->>>Function to display Array <<<---------------------------------------------///
 
     public void displayArray(int arr[], int n) {
         for (int i = 0; i < arr.length; i++) {
@@ -18,6 +20,8 @@ public class Arraysum {
 
     }
 
+///--------------------------------->>> Function to find sum  <<<--------------------------------------------------///
+
     public int sum(int arr[], int n) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -25,6 +29,8 @@ public class Arraysum {
         }
         return sum;
     }
+
+///---------------------------------->>> Function to find prime no in an array <<<-----------------------------------///
 
     public void Prime(int arr[], int size) {
         for(int i=0; i<arr.length; i++){
