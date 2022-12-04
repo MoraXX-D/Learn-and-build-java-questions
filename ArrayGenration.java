@@ -63,5 +63,3 @@ public class ArrayGenration {
         sc.close();
     }
 }
-
-
